@@ -1,3 +1,4 @@
+// Package Moved to HMS2 File 
 package hotel.management.system;
 
 
@@ -142,7 +143,7 @@ public class AddEmployee extends JFrame {  //Third Frame
         Image i3 = i1.getImage().getScaledInstance(500, 500, Image.SCALE_DEFAULT);
         ImageIcon i2 = new ImageIcon(i3);
         JLabel image = new JLabel(i2);
-        // setBounds is for croping the image
+        // setBounds is for cropping the image
         image.setBounds(410, 80, 480, 410);
         add(image);
 
