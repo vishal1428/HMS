@@ -72,7 +72,7 @@ public class Login extends JFrame implements ActionListener {
                     setVisible(false);
                     new Dashboard();
                 } else { // POP-UP FOR INVALID LOGIN
-                    JOptionPane.showMessageDialog(null, "Invalid login");
+                    JOptionPane.showMessageDialog(null, "Invalid login, 3 Attempt Left!");
                     setVisible(false);
                 }
             } catch (Exception e) {
